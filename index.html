@@ -6,127 +6,234 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Bieber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            background-color: #1f1f1f; /* Dark background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        h3 {
+            margin-top: 20px;
+            font-size: 1.8rem;
+            color: #ffcc00; /* Gold color for subheadings */
+        }
+        
+        /* Song Introduction Styles */
+        p {
+            margin: 10px 0;
+            padding: 0 20px;
+            text-align: justify;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin: 0 20px;
+        }
+        
+        li {
+            margin: 10px 0;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        
+        li:hover {
+            background: #444;
+        }
+        
+        /* Song Card Styles */
+        .song-card {
+            display: inline-block;
+            width: 300px;
+            margin: 10px;
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            transition: transform 0.3s ease-in, box-shadow 0.3s ease-in; /* Added transition */
+        }
+        
+        .song-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        }
+        
+        .song-card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in; /* Transition for the image */
+        }
+        
+        .song-card img:hover {
+            transform: scale(0.90); /* Scale effect on hover */
+        }
+        
+        .audio-player {
+            width: 100%;
+            margin-top: 10px 0;
+        }
+        
+        /* Footer Styles */
+        footer {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+    </style>
 </head>
 
 <body>
-    <header></header>
+    <header>Justin Bieber's Songs</header>
     <main>
-        <div>
-            <h1>INTRODUCTION</h1>
-            <p> This website provides you popular songs of <b> Justin Bieber.</b>
-                This website contains best quality mp3 songs without any problem.
-                You can also download these mp3 songs.
-                <br>
-            <p>Justin Bieber is a Canadian singer and songwriter. Born in 1994 in Stratford, Ontario, Canada, to a
-                single mother, Bieber took second place in a local talent competition at a young age. After his mother
-                posted YouTube clips of her boy performing, Bieber went from an unknown, untrained singer to a budding
-                superstar with a big-time record deal with Usher within two years. Bieber went on to become the first
-                solo artist to have four singles enter the Top 40 before the release of a debut album. His 2009 album,
-                My World, went platinum in several countries. He later experienced significant media exposure from
-                offensive activity. Nonetheless, the singer made his comeback in 2015 with his first number one song,
-                "What Do You Mean?" His 2017 collaboration with Luis Fonsi, “Despacito,” broke the all-time record for
-                most consecutive weeks at the number one spot on the Top 100. Bieber broke another record in early 2020
-                when the success of Changes made him the youngest artist to have seven albums reach the top spot on the
-                Billboard Hot 200.
-            </p>
-            </p>
-            <h3><br>Steps to download these songs.</h3>
-            <ul>
-                <li>Scroll down and search for your favourite song.</li>
-                <li>Click on the three dots on the right side of music player.</li>
-                <li>Click on the download boutton.</li>
-                <li>Now enjoy your favourite song.</li>
+        <h1>INTRODUCTION</h1>
+        <p>This website provides you popular songs of <b>Justin Bieber.</b> This website contains the best quality mp3 songs without any problem. You can also download these mp3 songs.</p>
+        <p>Justin Bieber is a Canadian singer and songwriter. Born in 1994 in Stratford, Ontario, Canada, to a single mother, Bieber took second place in a local talent competition at a young age. After his mother posted YouTube clips of her boy performing, Bieber went from an unknown, untrained singer to a budding superstar with a big-time record deal with Usher within two years. Bieber went on to become the first solo artist to have four singles enter the Top 40 before the release of a debut album. His 2009 album, My World, went platinum in several countries. He later experienced significant media exposure from offensive activity. Nonetheless, the singer made his comeback in 2015 with his first number one song, "What Do You Mean?" His 2017 collaboration with Luis Fonsi, “Despacito,” broke the all-time record for most consecutive weeks at the number one spot on the Top 100. Bieber broke another record in early 2020 when the success of Changes made him the youngest artist to have seven albums reach the top spot on the Billboard Hot 200.</p>
 
-            </ul>
+        <h1>SONGS</h1>
+
+        <!-- Song Cards -->
+        <div class="song-card">
+            <img src="https://paglasongs.com/uploads/thumb/sft8/3510_4.jpg" alt="Song 1">
+            <audio class="audio-player" src="https://paglasongs.com/files/download/id/3510" controls></audio>
         </div>
-        <br>
-        <h1>JUSTIN BIEBER</h1>
-        <!-- first stay-->
-        <br><img src="https://paglasongs.com/uploads/thumb/sft8/3510_4.jpg" width=300 alt="erropr!">
-        <br><audio src="https://paglasongs.com/files/download/id/3510" controls></audio>
-        <!-- second  peaches -->
-        <br><img
-            src="https://64.media.tumblr.com/3e21c51d7ec5fc43ac1992ad5f7243a8/f5e1abebdee186a0-59/s640x960/0bfbbb185ed2a730744d6c0a1c2e5d38e6ee6e25.jpg"
-            width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1505" controls></audio>
-        <!-- third yummy-->
-        <br><img src="https://jiomp3.in/siteuploads/thumb/sft1/257_6.jpg" width="300" alt="error!">
-        <br><audio src="https://jiomp3.in/files/download/id/257" controls></audio>
-        <!-- fourth baby-->
-        <br><img src="https://paglasongs.com/uploads/thumb/sft6/2576_4.jpg" width="300" alt="error!">
-        <br><audio src="https://paglasongs.com/files/download/id/2576" controls></audio>
-        <!-- fifth love yourself-->
-        <br><img src="https://i.pinimg.com/236x/d8/6c/c4/d86cc4fed62c90ac3c26fa613b774ba8.jpg" width="300" alt="error!">
-        <br><audio
-            src="https://filmisongs.com/mp3/go.php?id=Justin%20Bieber%20-%20Love%20Yourself%20Mp3%20Song%20Download.mp3"
-            controls></audio>
-        <!-- sixth lonely -->
-        <br><img src="https://i.ytimg.com/vi/o01lHykvHGE/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio
-            src="https://englishsongs.wapkiz.com/filedownload/1865491/Justin-Bieber-Benny-Blanco-Lonely-(englishsongs.wapkiz.com).mp3"
-            controls></audio>
-        <!-- seventh stuck with you-->
-        <br><img src="https://i.pinimg.com/originals/4f/90/62/4f906267c1faffc7458d9b2ea0374324.jpg" width="300"
-            alt="error!">
-        <br><audio
-            src="https://www.newsongs4u.com/wp-content/uploads/2020/05/Ariana-Grande-Justin-Bieber-Stuck-with-U-Ringtone-NewSongs4u.Com_.mp3"
-            controls></audio>
-        <!-- eighth off my face-->
-        <br><img src="https://songs9.vlcmusic.com/tiny_image/timthumb.php?q=100&w=500&src=images/36746.png" width="300"
-            alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1509" controls></audio>
-        <!-- ninth afraid to say-->
-        <br><img src="https://i.ytimg.com/vi/Qjtis478XvA/mqdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1865" controls></audio>
-        <!-- tenth where do i fit in-->
-        <br><img src="https://i.ytimg.com/vi/M9UL26gaelQ/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1863" controls></audio>
-        <!-- eleventh freedom-->
-        <br><img src="https://pbs.twimg.com/media/E7FhUk8WQAQkPtN.jpg:large" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1863" controls></audio>
-        <!-- twelth loved by you -->
-        <br><img src="https://i.pinimg.com/originals/57/e8/f4/57e8f46b63817527847806752eca8651.jpg" width="300"
-            alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1512" controls></audio>
-        <!-- thirteenth somebody-->
-        <br><img
-            src="https://i.pinimg.com/736x/e8/dc/2d/e8dc2dfb34f1aee22720785fb08fbd29--music-online-school-today.jpg"
-            width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1510" controls></audio>
-        <!-- fourteenth unstable-->
-        <br><img src="https://i.ytimg.com/vi/kZ7NNtoE4XI/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1508" controls></audio>
-        <!-- fifteenth we're in this together-->
-        <br><img src="https://i.ytimg.com/vi/h5-G8St-RUU/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1867" controls></audio>
-        <!-- sixteenth all she wrote-->
-        <br><img src="https://i.ytimg.com/vi/BVKv8YMdu3k/mqdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1864" controls></audio>
-        <!-- seventeenth where you go i follow-->
-        <br><img src="https://i.ytimg.com/vi/3WAmPDKQ3K8/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1862" controls></audio>
-        <!-- eighteenth 2 much-->
-        <br><img src="https://i.ytimg.com/vi/DD4gbePYFcM/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1513" controls></audio>
-        <!-- nineteenth ghost-->
-        <br><img
-            src="https://i1.wp.com/viralmirrors.com/wp-content/uploads/2021/04/1619656564_maxresdefault.jpg?fit=1280%2C720&ssl=1"
-            width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1511" controls></audio>
-        <!-- twenteeth as i am-->
-        <br><img src="https://i.ytimg.com/vi/33Uh-uNb5Oc/maxresdefault.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1507" controls></audio>
-        <!-- twentyfirst love you different-->
-        <br><img
-            src="https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1087122.jpg"
-            width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1506" controls></audio>
-        <!-- twentysecond hold on-->
-        <br><img src="https://i.pinimg.com/564x/30/80/a8/3080a83a6ee4d19ee518ca85579524f6.jpg" width="300" alt="error!">
-        <br><audio src="https://pagalworld.com.se/files/download/id/1383" controls></audio>
+
+        <div class="song-card">
+            <img src="https://64.media.tumblr.com/3e21c51d7ec5fc43ac1992ad5f7243a8/f5e1abebdee186a0-59/s640x960/0bfbbb185ed2a730744d6c0a1c2e5d38e6ee6e25.jpg" alt="Song 2">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1505" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://jiomp3.in/siteuploads/thumb/sft1/257_6.jpg" alt="Song 3">
+            <audio class="audio-player" src="https://jiomp3.in/files/download/id/257" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://paglasongs.com/uploads/thumb/sft6/2576_4.jpg" alt="Song 4">
+            <audio class="audio-player" src="https://paglasongs.com/uploads/thumb/sft6/2576_4.jpg" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.pinimg.com/236x/d8/6c/c4/d86cc4fed62c90ac3c26fa613b774ba8.jpg" alt="Song 5">
+            <audio class="audio-player" src="https://filmisongs.com/mp3/go.php?id=Justin%20Bieber%20-%20Love%20Yourself%20Mp3%20Song%20Download.mp3" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/o01lHykvHGE/maxresdefault.jpg" alt="Song 6">
+            <audio class="audio-player" src="https://englishsongs.wapkiz.com/filedownload/1865491/Justin-Bieber-Benny-Blanco-Lonely-(englishsongs.wapkiz.com).mp3" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.pinimg.com/originals/4f/90/62/4f906267c1faffc7458d9b2ea0374324.jpg" alt="Song 7">
+            <audio class="audio-player" src="https://www.newsongs4u.com/wp-content/uploads/2020/05/Ariana-Grande-Justin-Bieber-Stuck-with-U-Ringtone-NewSongs4u.Com_.mp3" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://songs9.vlcmusic.com/tiny_image/timthumb.php?q=100&w=500&src=images/36746.png" alt="Song 8">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1509" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/Qjtis478XvA/mqdefault.jpg" alt="Song 9">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1865" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/M9UL26gaelQ/maxresdefault.jpg" alt="Song 10">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1863" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://pbs.twimg.com/media/E7FhUk8WQAQkPtN.jpg:large" alt="Song 11">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1863" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.pinimg.com/originals/57/e8/f4/57e8f46b63817527847806752eca8651.jpg" alt="Song 12">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1512" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.pinimg.com/736x/e8/dc/2d/e8dc2dfb34f1aee22720785fb08fbd29--music-online-school-today.jpg" alt="Song 13">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1510" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/kZ7NNtoE4XI/maxresdefault.jpg" alt="Song 14">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1508" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/h5-G8St-RUU/maxresdefault.jpg" alt="Song 15">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1867" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/BVKv8YMdu3k/mqdefault.jpg" alt="Song 16">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1864" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/3WAmPDKQ3K8/maxresdefault.jpg" alt="Song 17">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1862" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/DD4gbePYFcM/maxresdefault.jpg" alt="Song 18">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1513" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i1.wp.com/viralmirrors.com/wp-content/uploads/2021/04/1619656564_maxresdefault.jpg?fit=1280%2C720&ssl=1" alt="Song 19">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1511" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.ytimg.com/vi/33Uh-uNb5Oc/maxresdefault.jpg" alt="Song 20">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1507" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1087122.jpg" alt="Song 21">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1506" controls></audio>
+        </div>
+
+        <div class="song-card">
+            <img src="https://i.pinimg.com/564x/30/80/a8/3080a83a6ee4d19ee518ca85579524f6.jpg" alt="Song 22">
+            <audio class="audio-player" src="https://pagalworld.com.se/files/download/id/1383" controls></audio>
+        </div>
     </main>
-    <br>
-    <pre>               THANK YOU!</pre>
+    
+    <footer>THANK YOU!</footer>
 </body>
 
 </html>
